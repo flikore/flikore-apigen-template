@@ -1,0 +1,13 @@
+{
+    "name": "flikore/apigen-template",
+    "description": "apigen template for flikore",
+    "authors": [
+        {
+            "name": "George Marques",
+            "email": "george@georgemarques.com.br"
+        }
+    ],
+    "require": {
+        "nette/nette": "v2.1.1"
+    }
+}
