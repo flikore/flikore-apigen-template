@@ -50,7 +50,7 @@ the file LICENSE.md that was distributed with this source code.
 				<a href="../../" class="brand">{if $config->title}{$config->title}{else}Overview{/if}</a>
 				<div class="nav-collapse">
 					<ul class="nav">
-                                            <li><a href="index.html" class="primary">{if $config->title}{$config->title}{else}Api{/if}</a></li>
+                                            <li><a href="index.html" class="primary">Api</a></li>
 						<li n:class="'package' === $active ? active" n:if="$packages">
 							<a n:tag-if="'package' !== $active && $package" href="{$package|packageUrl}" title="Summary of {$package}"><span>Package</span></a>
 						</li>
